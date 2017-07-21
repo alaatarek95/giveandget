@@ -1,0 +1,61 @@
+body{
+	margin:10px;
+}
+.modal-body {
+	padding: 2px 16px;
+	text-align:center;
+}
+
+
+div.group{
+	padding:15px;
+	margin-right: 95px;
+	border: none;
+    float: left;
+	margin-left:95px;
+	
+}
+
+div.gallery {
+	
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #ff9900;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font: bold 20px/20px
+}
+
+.sendBtn{
+	 font-size: 20px;
+	 font-family:"Arial";
+	 background-color:  #ff9900;
+	 color: #fff;
+	 border: none;
+	 border-radius: 5px;
+	 padding: 5px 20px;
+	 cursor: pointer;
+	 border: 1px solid #888;
+	 margin-right:50%;
+	 margin-left:45%;
+	 
+	
+}
+
+.sendBtn:hover {
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+     background:  #ff9900;
+}

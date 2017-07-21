@@ -1,0 +1,207 @@
+h1   {
+	color: white;
+	text-align: center;
+	font-size:30px;
+	box-sizing: border-box;
+    border: 15px solid #ff9900;
+    border-radius: 25px;
+	background-color: #ff9900;
+	width:80%;
+	margin-top:10px;
+	margin-left:150px;
+	
+	
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+	height:50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+	border-radius:40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #919494;
+	
+}
+.cancelbtn:hover {
+    background-color: #888A8A;
+}
+.signupbtn {
+    padding: 14px 20px;
+    background-color: #ff9900;
+	
+}
+.signupbtn:hover{
+	background-color:#EC9718;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 25%;
+	margin:10px;
+	margin-left:220px;
+	font-size:18px;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    font-size:100 px;
+	text-align:center;
+	width:700px;
+	height:250px;
+	
+    
+}
+
+.confirmbtn{
+	 font-size: 20px;
+	 font-family:"Arial";
+	 background-color:  #ff9900;
+	 color: #fff;
+	 border: none;
+	 border-radius: 5px;
+	 padding: 5px 20px;
+	 cursor: pointer;
+	 border: 1px solid #888;
+	 width:25%;
+
+	
+}
+
+.confirmbtn:hover {
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+     background:  #ff9900;
+}
+/* The Close Button */
+.close {
+    position:absolute;
+    right:1%;
+	top:-3%;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+     font-family: "Arial";
+	 text-align:center;
+     background-color: #ffad33;
+     color:white;
+  	 border-radius:6px;
+	 padding-left:200px;
+}
+
+.modal-body {padding: 2px 16px;}
+
+textarea 
+{
+     width: 300px;
+     height: 100px;
+     padding: 5px 5px;
+     box-sizing: border-box;
+     border: 2px solid #ccc;
+     border-radius: 4px;
+     background-color: #f8f8f8;
+     font-size: 16px;
+     margin-top:-40px;
+	 margin-left:143px;
+
+}
+
+input[type=text1] 
+{
+     border: 2px solid #ccc;
+	 border-radius: 4px;
+	 height: 15px;
+	 width: 180px;
+	 font-size: 16px;
+	 margin-top: -50px;
+	 margin-left:30px;
+	 margin-right:40px;
+	 padding: 5px 10px;
+}
+ 
+#price
+{
+	 padding: 5px 5px;
+     margin-bottom: 10px;
+     margin-left: 10px;
+
+
+}
+#paymentway
+{
+	 padding: 5px 5px;
+     margin-bottom: 10px;
+     margin-left: 10px;
+
+
+}

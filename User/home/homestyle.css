@@ -1,0 +1,143 @@
+
+.special-img 
+{
+    position: relative;
+    bottom:-6px;
+    float: right;
+    left: -15px;
+}
+
+.message-img
+{
+	position: relative;
+	margin:3px;
+    bottom:-3px;
+    float: right;
+    left: -25px;
+	
+}
+
+
+
+
+
+
+
+.container{
+	text-align: center;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+  background-image: url("homeimg1.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+
+
+
+
+
+button.items {
+    background-color: #eee;
+    color: #ff9900;
+    cursor: pointer;
+    padding: 18px;
+	margin:18px; 
+    width: 80%;
+    border: 2px solid #ccc;
+	border-radius: 50px;
+    text-align: center;
+    outline: none;
+	font: bold 30px/30px Georgia, serif;
+    /*font-size: 30px;*/
+    transition: 0.4s;
+}
+
+button.items.active, button.items:hover {
+    background-color: #ddd; 
+	border: 2px solid #ff9900;
+}
+
+div.panel {
+	text-align:center;
+    padding:0 180px;
+    display: none;
+    background-color: white;
+
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #ff9900;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font: bold 20px/20px
+}
+
+
+
+.adbox {
+    border: none;
+	width: 80%;
+    height:160px;    
+    box-sizing: border-box;
+	margin-top:130px;
+	margin-left:150px;
+	
+    
+}
+
+
+
+.ad1{
+	border: 1px solid ;
+	width: 350px;
+    height:150px;    
+    box-sizing: border-box;
+	float:left;
+	margin:2px;
+	
+	
+	
+}
+.ad1:hover{
+	border: 1px solid #ff9900;
+}
+
+

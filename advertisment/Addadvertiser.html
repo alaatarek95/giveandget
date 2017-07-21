@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Create Advertisement </title>
+    <link rel="stylesheet" type="text/css" href="Addadvertiser.css">
+	
+	  
+	
+</head>
+
+
+<body onload='document.form1.fname;document.form1.username;document.form1.email.focus()'>  
+
+<h1> Create  Advertisement </h1>
+
+
+<form action="addadvertiser.php" name="form1" method="post" style="border:1px solid #ccc" enctype="multipart/form-data">
+  <div class="container">
+  
+  <b>Info about the advertiser:</b> <br> <br>
+  
+  <label><b>Full Name</b></label>
+    <input type="text" placeholder="Enter FullName" onkeyup="allLetterands(document.form1.fname);" name='fname' required maxlength="20"><br>
+	
+     <span id="con" ></span>
+
+	   <br>
+	 <label><b>UserName</b></label>
+    <input type="text" placeholder="Enter username" onkeyup="allLetter(document.form1.username);"  name='username' required maxlength="20"><br>
+
+   <span id="confirmltr" ></span>
+<br>
+	<label><b>Gender</b></br></label></br>
+	
+     <select id="state" name="gender" >
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select></br> 
+    </br>
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" onkeyup="emailval(document.form1.email);" name="email" required maxlength="35">
+
+    <span id="emailerror" ></span>
+
+	
+
+<br>
+    <label><b>Password</b></label>
+    <input type="password" id="pass1" placeholder="Enter Password" name="psw" required maxlength="40">
+
+	
+	
+    <label><b>Repeat Password</b></label>
+    <input type="password" id="pass2" placeholder="Repeat Password" onkeyup="checkPass(); return false;" name="psw-repeat" required maxlength="40">
+
+    <span id="confirmMessage" ></span><br><br>
+	
+	  <label><b>Date of birth</b></label></br><br>
+       <input type="date" placeholder="Enter date of birth" name="DOB" required> <br><br>
+	
+		<label><b>Phone Number</b></label> <br><br>
+    <input type="number" placeholder="Enter Your Phone Number" name="no" required>
+	
+     <br> <br>
+	<hr>
+	<b>Info about the advertisement:</b>
+	</br></br>
+	<label><b>Title</b></label>
+    <input type="text"  name="title" placeholder="Enter the title of the advertisment"required maxlength="100">
+	<br>
+	
+   	<label><b>Period</b></label><br><br>
+
+
+	<select name="month" id="1" onchange="get();">
+	<option>select</option>
+    <option value="1">1 month</option>
+    <option value="2">2 months</option>
+    <option value="3">3 months</option>
+
+  </select> 
+  <b>
+<p id="p1" style="color:#66cc66;"></p></b>
+
+
+
+  <br>
+  
+	
+		<label><b>PublishedDate</b></label><br> <br>
+    <input type="date" name="pubdate" placeholder="Enter the published_Date of the advertisment"required ><br><br>
+	
+		
+
+			
+   	<label><b>Paymentway</b></label><br><br>
+    
+	<select name="pay">
+    <option value="cash">cash</option>
+    <option value="paypal">paypal</option>
+
+
+  </select> 
+	<br><br>
+	
+		<label><b>Content</b></label>
+    <input type="text" name="content" placeholder="Enter the content of the advertisment"required maxlength="200">
+	
+	
+		<label><b>CompanyWebsite</b></label>
+    <input type="text" name="cwebsite" placeholder="Enter the companyWebsite of the advertisment"required maxlength="30">
+	
+<h5 style="font-family:Arial;margin-left:10px;">  Adv photo: <input type="file" name="img1" multiple> </h5> 
+   
+	
+   
+
+    <div class="clearfix">
+     <button id="myBtn" type="submit" name="submit" class="signupbtn">Create adv</button>
+      <button  type="reset" class="cancelbtn">Cancel</button>
+    </div>
+  </div>
+</form>
+<script src="form.js"></script>  
+
+</body>
+</html>
